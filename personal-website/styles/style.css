@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    width: 100%;
+}
+
+.nav-head {
+    border-radius: 10px;
+    background-color: darkcyan;
+    margin-right: 17.5px;
+    height: 40px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1vh;
+}
+
+.nav-head p {
+    color: white;
+    font-size: 30px;
+    display: inline;
+    font-weight: bold;
+    padding-inline: 8%;
+}
+
+.nav-head a {
+    color: white;
+}
+
+.nav-head a:hover {
+    color: lightgray;
+}
+
+.nav-head a:active {
+    color: #555555;
+}
