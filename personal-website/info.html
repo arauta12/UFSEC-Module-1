@@ -6,15 +6,49 @@
         <meta charset="utf-8">
         <link rel="icon" href="images/logo-website.png" type="image/x-icon">
         <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <link rel="stylesheet" href="styles/info-styles.css" type="text/css">
     </head>
     <body>
-        <nav class="nav-head">
+        <nav class="nav-head">  <!-- Main nav links -->
             <p id="home"><a href="website.html">Home</a></p>
             <p id="info"><a href="info.html">Info</a></p>
             <p id="about"><a href="about.html">About</a></p>
         </nav>
-        <!-- FIXME add search bar -->
-        <!-- FIXME add footer to W3C -->
+
         <h1>Info Page</h1>
+        <hr>
+        <main>
+            <h2>Common Tags/Elements</h2>
+            <table class="tag-table" border="1">  <!-- Element table -->
+                <tr class="table-h">
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Syntax</th>
+                </tr>
+                <tr class="odd-row">
+                    <td>html</td>
+                    <td>This is the root element in the DOM model.</td>
+                    <td>&lt;html&gt;data here&lt;&#47;html&gt;</td>
+                </tr>
+                <tr class="even-row">
+                    <td>a</td>
+                    <td>This is the element to insert an anchor.</td>
+                    <td>&lt;a&gt;data here&lt;&#47;a&gt;</td>
+                </tr>
+                <tr class="odd-row">
+                    <td>img</td>
+                    <td>This is a void element to embed an image.</td>
+                    <td>&lt;img&gt;</td>
+                </tr>
+                <tr class="even-row">
+                    <td>head</td>
+                    <td>This is the element to add website metadata.</td>
+                    <td>&lt;head&gt;data here&lt;&#47;head&gt;</td>
+                </tr>
+            </table>
+            <div class="search">  <!-- Search bar and button -->
+                <input class="search-bar" type="text" placeholder="Search tags"></input><button class="search-button">Submit</button>
+            </div>
+        </main>
     </body>
 </html>

@@ -9,15 +9,17 @@
         <link rel="stylesheet" href="styles/website-style.css" type="text/css">
     </head>
     <body>
-        <nav class="nav-head">
+        <nav class="nav-head"> <!-- Main nav links -->
             <p id="home"><a href="website.html">Home</a></p>
             <p id="info"><a href="info.html">Info</a></p>
             <p id="about"><a href="about.html">About</a></p>
         </nav>
         <main>
-            <h1>Home Page</h1>
-            <hr>
-            <section class="why_html">
+            <header>
+                <h1>Home Page</h1>
+                <hr>
+            </header>
+            <section class="why_html">  <!-- HTML Facts Section -->
                 <h2>Why HTML?</h2>
                 <p>You should learn HTML for the following reasons:</p>
                 <ol class="reason_list">
@@ -27,7 +29,7 @@
                 </ol>
             </section>
             <hr>
-            <section class="more_info">
+            <section class="more_info">  <!-- HTML Logo Section -->
                 <figure>
                     <img id="logo" src="images/html_logo.png"
                      alt="HTML 5 logo"
@@ -37,15 +39,9 @@
                 </figure>
             </section>
             <hr>
-            <footer class="footer">
+            <footer class="footer">  <!-- Website link -->
                 <p><a href="https://www.w3.org" target="_blank">Visit W3C</a></p>
-                <p><a href="" onclick="alert_user()">someuser@domain.gmail</a></p>
             </footer>
         </main>
-        <script type="text/javascript">
-            function alert_user() {
-                alert("This link successfully works but not a valid email!\nReturning to home page...")
-            }
-        </script>
     </body>
 </html>

@@ -6,15 +6,28 @@
         <meta charset="utf-8">
         <link rel="icon" href="images/logo-website.png" type="image/x-icon">
         <link rel="stylesheet" href="styles/style.css" type="text/css">
+        <link rel="stylesheet" href="styles/about.css" type="text/css">
     </head>
     <body>
-        <nav class="nav-head">
+        <nav class="nav-head">  <!-- Main nav links -->
             <p id="home"><a href="website.html">Home</a></p>
             <p id="info"><a href="info.html">Info</a></p>
             <p id="about"><a href="about.html">About</a></p>
         </nav>
-        <!-- FIXME add search bar -->
-        <!-- FIXME add footer to W3C -->
-        <h1>About Page</h1>
+        <main>
+            <h1>About Page</h1>
+            <div class="main-content"> <!-- Author data section -->
+                <img id="user-img" src="images/anon-user.jpg" alt="Generic picture" width="300">
+                <p>
+                    This paragraph is here to explain some facts about the user.
+                    This might include details such as education, career, mission,
+                    etc.
+                </p>
+            </div>
+        </main>
+        <footer class="footer"> <!-- Author email -->
+            <p><a href="" onclick="alert_user()">someuser@domain.gmail</a></p>
+            <script src="javascript/email-alert.js"></script>
+        </footer>
     </body>
 </html>

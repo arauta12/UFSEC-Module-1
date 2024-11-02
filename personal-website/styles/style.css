@@ -1,10 +1,11 @@
+/* Main design style */
+
 h1 {
     text-align: center;
 }
 
 body {
     background-color: lightblue;
-    width: 100%;
 }
 
 .nav-head {
@@ -27,6 +28,7 @@ body {
 
 .nav-head a {
     color: white;
+    transition: color 0.15s;
 }
 
 .nav-head a:hover {
